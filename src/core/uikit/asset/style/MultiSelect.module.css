@@ -1,0 +1,202 @@
+.selectedItemIcon {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.searchResults {
+  margin-top: 8px;
+  max-height: 200px;
+  padding: 0;
+  overflow-y: auto;
+  border-top: 1px solid #ccc;
+}
+
+.searchItem:hover {
+  background-color: #f5f5f5;
+}
+
+.searchItem img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.searchItemName {
+  font-weight: bold;
+  flex-grow: 1;
+}
+
+.searchItemEpisodes {
+  color: #666;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #000;
+}
+
+.searchItemName {
+  font-weight: 400;
+}
+
+.infoItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.selectBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  width: 100%;
+}
+
+.selectedItem {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.dropdownIcon {
+  margin-left: auto;
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchItem {
+  display: flex;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  align-items: center;
+}
+
+.checkInput {
+  display: flex;
+  gap: 10px;
+}
+
+.searchItemImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.searchItemName {
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.searchItemEpisodes {
+  color: #666;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.selectBox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.selectedItem {
+  display: inline-flex;
+  align-items: center;
+  margin: 4px;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.multiSelectContainer {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.selectBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.selectedItem {
+  display: inline-flex;
+  align-items: center;
+  margin: 4px;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  padding: 4px 8px;
+}
+
+.searchItemActive {
+  background-color: #f5f5f5;
+}
+
+.multiSelectInput {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50px;
+  border: none;
+  outline: none;
+  padding: 4px;
+  min-width: 50px;
+}
+
+.searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.searchItem {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+
+.searchItemImage {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.searchItemName {
+  font-weight: 400;
+  flex-grow: 1;
+}
+
+.searchItemEpisodes {
+  color: #666;
+}
+
+.highlight {
+  font-weight: 700;
+}

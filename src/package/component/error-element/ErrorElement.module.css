@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; 
+}
+
+.heading {
+  font-size: 2.5rem;
+}
+
+.text {
+  font-size: 1.25rem; 
+  font-weight: medium;
+  line-height: shorter;
+}
+
+.mutedText {
+  color: grey; 
+}
+
+.button {
+  color-scheme: black;
+}
+
+.image {
+  max-width: 320px;
+}
